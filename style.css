@@ -5,7 +5,6 @@ body{
     color: white;
     max-width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
     padding: 15px;
 }
 
@@ -20,12 +19,17 @@ header{
 }
 
 span{
-    color: #70F03A;
+    color: rgb(0, 255, 255);
 }
 
 main{
     padding-top: 20px;
+    padding-bottom: 200px;
     font-family: 'Objectsans';
+}
+
+aside{
+    padding-top:90px;
 }
 
 aside h2{
@@ -35,31 +39,38 @@ aside h2{
 }
 
 a{
+    text-align: center;
   color: white;
   text-decoration: none;
   font-size: 20px;
+  display: block;
+  width: 300px;
 }
 
 a:hover{
-    color: #70F03A;
+    color: rgb(0, 255, 255);
     transition: 0.3s all;
 }
 
 #btn{
-    border: 2px solid #70F03A;
+    border: 2px solid rgb(0, 255, 255);
     padding: 10px;
     border-radius: 20px;
-    color: #70F03A;
+    color: rgb(0, 255, 255);
 }
 
 #btn:hover{
-    background-color: #70F03A;
+    background-color: rgb(0, 255, 255);
     color: white;
 }
 
 aside img{
-    width: 700px;
+    width: 650px;
     position: absolute;
     left: 600px;
     bottom: 3px;
+}
+
+#plr{
+    text-align:center ;
 }
