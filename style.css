@@ -72,5 +72,41 @@ aside img{
 }
 
 #plr{
+    margin: 0;
+    text-align: center;
+    font-family: 'NavineDemo-SemiCondensed';
+    font-size: 30px;
+}
+
+#plr-ex{
+    font-family: 'Objectsans';
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 200px;
+}
+
+#confira{
+    margin: 0;
     text-align:center ;
+    font-family: 'NavineDemo-SemiCondensed';
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 400px;
+    
+}
+
+#confira-img{
+    display: inline-block;
+    padding-bottom: 200px;
+}
+
+#confira-img img{
+    width: 270px;
+    padding: 10px;
+}
+
+#para-quem{
+    text-align: right;
+    font-size: 30px;
+    line-height: 40px;
 }
